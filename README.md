@@ -4,8 +4,8 @@ This is the final, peer-graded, course project in the Coursera Getting and Clean
 
 Files included in this repository:
 
-- `ReadMe.md` - The file you're currently reading
 - `CodeBook.md` - Description of the data and data cleaning performed
+- `README.md` - The file you're currently reading
 - `run_analysis.R` - Script that will download, clean, and manipulate the data
 - `tidy.txt` - The resulting data after running the `run_analysis.R` script
 
