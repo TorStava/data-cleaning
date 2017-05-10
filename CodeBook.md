@@ -38,3 +38,6 @@ The 'Subject' and 'Activity' columns are then converted into factors. The activi
 
 ## Melting and dcasting
 In order to create a new tidy table containing the mean of the factors for each subject and activity, the dataset is first melted using the 'Subject' and 'Activity' columns as IDs. The melted dataset is then `dcast`ed into a final tidy data table with the calculated mean for all the Subject and Activity combinations.
+
+## Writing the table to file
+The final and tidy table is then written to a text file, `tidy.txt`, using the option `row.names = FALSE`.
